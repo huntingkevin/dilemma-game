@@ -1,0 +1,45 @@
+\chapter{Testing}
+\section{Overall Testing}
+At the end of development, testing is the most important procedure for the reason that it can discover problems and correct in time. Furthermore, users' feeling can be obtained first and that is helpful to improve the application to be more user-friendly. In this section, two aspects will be tested respectively.
+\subsection{Compatibility}
+There are all kinds of web browsers in market and users' preference cannot be predicted, thus compatibility of mainstream browsers is vital when functionality of the application is accomplished. Here, eight key browsers are chosen and tested, as can be seen in \tref{Table:compatibility}. The game can run on most browsers including Internet Explorer, Google Chrome, Firefox and Safari which should currently be the biggest four explorers. It can be smoothly running on all the up-to-date versions without any compatibility problems. However, when testing on Dooble, it is found that log on window could not normally show up and because of this, it is impossible to enter the game. The reason is probably this browser does not support JavaScript and PHP very well. Another similar issue happens on Netsurf which is an open source and light explorer which has its own layout engine. Opening the log-on page is successful but when trying to access the game, the lattice could not display whose reason may be deficiency of good compatibility with JavaScript. In addition, the application is tested on OmniWeb and it turns out no problem.
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Browser} & \specialcell{Dooble \\v1.48} & \specialcell{Google Chrome \\ v37.0 } & \specialcell{OmniWeb \\ v5.11} & \specialcell{Maxthon \\ v4.1.3} \\ \hline
+\specialcell{\textbf{Instruction module} \\ \textbf{compatibility}} & \checkmark & \checkmark & \checkmark & \checkmark \\ \hline
+\specialcell{\textbf{Log-on module} \\ \textbf{compatibility}}& \text{\sffamily X} & \checkmark & \checkmark & \checkmark \\ \hline
+\specialcell{\textbf{Game module} \\ \textbf{compatibility}}& \text{\sffamily X} & \checkmark & \checkmark & \checkmark \\ \hline
+\textbf{Browser} & \specialcell{Firefox \\ v32.0} & \specialcell{Netsurf \\ v2.9}  & \specialcell{Safari \\ v7.0.6}  & \specialcell{Internet \\ Explorer 11} \\ \hline
+\specialcell{\textbf{Instruction module} \\ \textbf{compatibility}} & \checkmark & \checkmark & \checkmark & \checkmark \\ \hline
+\specialcell{\textbf{Log-on module} \\ \textbf{compatibility}}& \checkmark & \checkmark & \checkmark & \checkmark \\ \hline
+\specialcell{\textbf{Game module} \\ \textbf{compatibility}}& \checkmark & \text{\sffamily X} & \checkmark & \checkmark \\ \hline
+
+\end{tabular}
+\caption{Compatibility with main web browsers}
+\label{Table:compatibility}
+\end{table}
+
+Therefore, the application is compatible with main internet browsers, although it cannot run well on some browsers which have their own engine and it may be the cause of the issue.
+
+\subsection{Usability}
+Contrast colours are used in the application in order to make the page more clear to read. In addition, font-size is big to read and buttons are friendly to click with reasonable size and attractive colours. Moreover, game procedure is fluent although users should click a button every time a step is finished.
+
+In terms of accessibility, it does not aim to accessibility use, so when it is tested according to Web Content Accessibility Guidelines (WCAG 2.0) which is developed by W3C and organisations around the world and aims to provide standard for web content accessibility, most of content are not satisfied. For example, not all functionality is available from a keyboard and content cannot be presented in different ways. Nevertheless, readability is achieved so that a few people with disabilities can participate in this game.
+\section{Evaluation}
+As discussed above, the project is to create an application about migration in prisoner's dilemma game. 
+\subsection{Disadvantages and Issues} \label{Subsubsection: dis}
+\begin{enumerate}
+\item Do not solve the calculating error when line breaks. In this application, an array is used to remember strategies of every person and empty locations on the map - "0" is cooperation, "1" is defection, "2" is the location of the play and "undefined" means empty. When calculating payoff of a specific point, it just utilises the strategy array because every index represents a definite point and if a point is known, its neighbours to the top, right, bottom and left can compute. However, when a clicked point is on the edge of the chessboard and coincidently on the first point of next line whose index is actually next to the one clicked in the strategy array. Therefore, when calculating payoff, mistakes may happen. For correcting it, "if" statement should be added when the user clicks points on the edge.
+\item Not support configuration of the game. At the moment, payoff matrix is fixed and set by the programmer, so every player plays the same game. Nevertheless, the application should be more flexible that it can be configured by administrators. For example, the matrix can be modified to snowdrift game and observe what human strategies are to compare with prisoner's dilemma.
+\item Registering detail is not sufficient. Administrators need to control or monitor the game and users, so there should be enough information for them to consider if the user can participate the game. At the moment, information a user must enter is just name, email, gender and occupation which may be insufficient for the manager. Moreover, later analysis can be categorised based on this information which can be very meaningful.
+\item Neighbours are all static, initialising at the beginning. Information on the map including the player's initial location and all strategies of occupied positions are set when the game starts and never change during the game. This means computer players are not intelligent to apply some classic solution like "Tit-for-Tat" or "win-stay, lose shift". This may decrease meaning of collecting the data to study human cooperative motivation.
+\end{enumerate}
+
+\subsection{Advantages and Benefits}
+\begin{enumerate}
+\item Secure. This project applies an encryption algorithm to encryption user's password when it is stored into database. By doing this, password is secure when transmitting and also, even the administrator is not able to know the password from the table in the database. In addition, the project allows a manager to approve or reject a user to join which means not only not all people who want to join can participate as they want but also all users are verified and they are monitored in the game. Finally, the proof of security is that the only way to join the game is logging on. If a person tries to directly enter by URL, it will return error. 
+\item Concise user interface. User interface of the game page is clear to divide into three main components and users can easily access through logging on. Every time on the operation module, there are only buttons regarding to the current step. This may help users focus on what they need to do and make them feel less lost and more user-friendly.
+\end{enumerate}

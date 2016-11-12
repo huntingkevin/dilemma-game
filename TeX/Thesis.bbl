@@ -1,0 +1,126 @@
+\begin{thebibliography}{}
+
+\bibitem[Axelrod, 1987]{axelrod1987evolution}
+Axelrod, R. (1987).
+\newblock The evolution of strategies in the iterated prisoner’s dilemma.
+\newblock {\em The dynamics of norms}, pages 1--16.
+
+\bibitem[Axelrod, 2006]{axelrod2006evolution}
+Axelrod, R.~M. (2006).
+\newblock {\em The evolution of cooperation}.
+\newblock Basic books.
+
+\bibitem[Cremer and McLean, 1988]{cremer1988full}
+Cremer, J. and McLean, R.~P. (1988).
+\newblock Full extraction of the surplus in bayesian and dominant strategy
+  auctions.
+\newblock {\em Econometrica: Journal of the Econometric Society}, pages
+  1247--1257.
+
+\bibitem[Dawkins, 2006]{dawkins2006selfish}
+Dawkins, R. (2006).
+\newblock {\em The selfish gene}.
+\newblock Number 199. Oxford university press.
+
+\bibitem[Hauert and Doebeli, 2004]{hauert2004spatial}
+Hauert, C. and Doebeli, M. (2004).
+\newblock Spatial structure often inhibits the evolution of cooperation in the
+  snowdrift game.
+\newblock {\em Nature}, 428(6983):643--646.
+
+\bibitem[Helbing and Yu, 2009]{helbing2009outbreak}
+Helbing, D. and Yu, W. (2009).
+\newblock The outbreak of cooperation among success-driven individuals under
+  noisy conditions.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  106(10):3680--3685.
+
+\bibitem[Milinski et~al., 2002]{milinski2002reputation}
+Milinski, M., Semmann, D., and Krambeck, H.-J. (2002).
+\newblock Reputation helps solve the ‘tragedy of the commons’.
+\newblock {\em Nature}, 415(6870):424--426.
+
+\bibitem[Myerson, 2013]{myerson2013game}
+Myerson, R.~B. (2013).
+\newblock {\em Game theory: analysis of conflict}.
+\newblock Harvard university press.
+
+\bibitem[Nash, 1951]{nash1951non}
+Nash, J. (1951).
+\newblock Non-cooperative games.
+\newblock {\em Annals of mathematics}, pages 286--295.
+
+\bibitem[Nowak et~al., 1993]{nowak1993strategy}
+Nowak, M., Sigmund, K., et~al. (1993).
+\newblock A strategy of win-stay, lose-shift that outperforms tit-for-tat in
+  the prisoner's dilemma game.
+\newblock {\em Nature}, 364(6432):56--58.
+
+\bibitem[Nowak, 2006]{nowak2006five}
+Nowak, M.~A. (2006).
+\newblock Five rules for the evolution of cooperation.
+\newblock {\em science}, 314(5805):1560--1563.
+
+\bibitem[Nowak and May, 1992]{nowak1992evolutionary}
+Nowak, M.~A. and May, R.~M. (1992).
+\newblock Evolutionary games and spatial chaos.
+\newblock {\em Nature}, 359(6398):826--829.
+
+\bibitem[Nowak and May, 1993]{nowak1993spatial}
+Nowak, M.~A. and May, R.~M. (1993).
+\newblock The spatial dilemmas of evolution.
+\newblock {\em International Journal of bifurcation and chaos}, 3(01):35--78.
+
+\bibitem[Paul and Ramanujam, 2011]{paul2011neighbourhood}
+Paul, S. and Ramanujam, R. (2011).
+\newblock Neighbourhood structure in large games.
+\newblock In {\em Proceedings of the 13th Conference on Theoretical Aspects of
+  Rationality and Knowledge}, pages 121--130. ACM.
+
+\bibitem[Perc and Szolnoki, 2010]{perc2010coevolutionary}
+Perc, M. and Szolnoki, A. (2010).
+\newblock Coevolutionary games - a mini review.
+\newblock {\em BioSystems}, 99(2):109--125.
+
+\bibitem[Smith, 1982]{smith1982evolution}
+Smith, J.~M. (1982).
+\newblock {\em Evolution and the Theory of Games}.
+\newblock Cambridge university press.
+
+\bibitem[Smith and Price, 1973]{smith1973lhe}
+Smith, J.~M. and Price, G. (1973).
+\newblock The logic of animal conflict.
+\newblock {\em Nature}, 246:15.
+
+\bibitem[Soumya and Ramanujam, 2011]{lecturePPT}
+Soumya, P. and Ramanujam, R. (2011).
+\newblock Neighbourhood structure in games.
+\newblock University Lecture.
+
+\bibitem[Szab{\'o} and Fath, 2007]{szabo2007evolutionary}
+Szab{\'o}, G. and Fath, G. (2007).
+\newblock Evolutionary games on graphs.
+\newblock {\em Physics Reports}, 446(4):97--216.
+
+\bibitem[Szab{\'o} and T{\H{o}}ke, 1998]{szabo1998evolutionary}
+Szab{\'o}, G. and T{\H{o}}ke, C. (1998).
+\newblock Evolutionary prisoner’s dilemma game on a square lattice.
+\newblock {\em Physical Review E}, 58(1):69.
+
+\bibitem[Taylor and Jonker, 1978]{taylor1978evolutionary}
+Taylor, P.~D. and Jonker, L.~B. (1978).
+\newblock Evolutionary stable strategies and game dynamics.
+\newblock {\em Mathematical biosciences}, 40(1):145--156.
+
+\bibitem[Traulsen and Nowak, 2006]{traulsen2006evolution}
+Traulsen, A. and Nowak, M.~A. (2006).
+\newblock Evolution of cooperation by multilevel selection.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  103(29):10952--10955.
+
+\bibitem[Trivers, 1971]{trivers1971evolution}
+Trivers, R.~L. (1971).
+\newblock The evolution of reciprocal altruism.
+\newblock {\em Quarterly review of biology}, pages 35--57.
+
+\end{thebibliography}

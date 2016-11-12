@@ -1,0 +1,24 @@
+%% ----------------------------------------------------------------
+%% Conclusions.tex
+%% ---------------------------------------------------------------- 
+
+
+\chapter{Conclusion and Future Work} \label{Chapter: Conclusion}
+In this dissertation, design and implementation of a Web application on prisoner's dilemma games where migration is possible are introduced. It is for users to have fun, simulating migration in reality when some neighbours have cooperation or defection strategies. In this game, users should try their best to acquire more payoff, by making decisions of strategies to play against their nearest individuals and of a new location they want to move to for four rounds. It may be not enough to collect usefully researched information, but it is just a beginning. In the future, it can be extended. In addition, it can help researchers in the future to find out what strategies of human when they migrate. Data of the game is stored in the database, including strategy of every round and its corresponding bonus which can record variety of a player's decisions.
+
+In the future, work can continue as the following directions:
+\begin{itemize}
+\item Mistakes of payoff calculation which is discussed in \cref{Subsubsection: dis} should be debug and corrected. One solution may be adding a restricted condition before the clicking event runs. It could be checking if the id value of choosing site is 9, 18, 27,\dots , which are the edge of the right border. If so, the right neighbour will be ignored. Similarly, if the id value equals to 10, 20, 30, \dots , it should ignore the left-hand-side neighbour.
+\item Specific configuration can be modified by the administrator. At the moment, payoff matrix is satisfied with prisoner's dilemma and it cannot be changed unless directly changing the source code. This, however, is not realistic in most cases. Therefore, another component should be added into administrator's page which can show the specific features of the game, such as fitness table, size of the map and so on and managers can modify them. Additionally, more personal detail may be required in the future which can give the administrator more reference of the user.
+\item Computer players should be more intelligent. The computer players are all set at the beginning of the game and fixed during the whole game. After this project, intelligence of the computer should be improved, maybe using some solutions like "tit-for-tat" and "win-stay, lose-shift". It can increase the game's fun.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
